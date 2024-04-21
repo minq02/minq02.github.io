@@ -2,7 +2,7 @@
 title               : Min Kyu Kim
 description         : >-
                       MS Robotics student at
-                      University of Michigan Ann Arbor
+                      University of Michigan Ann Arbor.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : minq02/minq02.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -19,14 +19,14 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+  - pages/blog.html
 
 
 ### Author Info ###
 author:
   name              : Min Kyu Kim
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
   email             : minqkim@umich.edu
 # facebook          : your_username
@@ -56,8 +56,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+  # elements:                                             # For Documentation Only
+  #   output: true                                        # For Documentation Only
 
 
 ### Disqus ###
