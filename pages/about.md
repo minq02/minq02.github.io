@@ -14,10 +14,7 @@ Hi I am **{{ site.author.name }}** :wave:
 <center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.jpg" width=380/></center>
 <br>
 
-MS in Robotics student at University of Michigan
-
-<br>
-Feel free to reach out via one of the media at the bottom of the page.
+I am currently a graduate student at the University of Michigan, where I am deeply engaged in the field of robotics and automation. My primary focus is on perception, localization, and mapping—key areas that drive innovations in robotic systems. Through my studies and research, I strive to develop solutions that enhance robotic capabilities in complex environments.
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
