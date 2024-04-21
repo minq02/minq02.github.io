@@ -1,7 +1,7 @@
 ---
 name: CRS Robot Arm Control
 tools: [C, MATLAB, SIMULINK]
-image: https://minq02.github.io/assets/crs-robot.gif
+image: https://minq02.github.io/assets/crs_robot.gif
 description:  PID control, inverse dynamics joint control, and impedance control of Catalyst-5 robot arm
 ---
 
