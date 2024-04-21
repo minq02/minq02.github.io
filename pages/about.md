@@ -14,6 +14,11 @@ Hi I am **{{ site.author.name }}** :wave:
 <center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.jpg" width=380/></center>
 <br>
 
+MS in Robotics student at University of Michigan
+
+<br>
+Feel free to reach out via one of the media at the bottom of the page.
+
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
