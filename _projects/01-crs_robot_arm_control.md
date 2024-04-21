@@ -21,13 +21,13 @@ The image shows a schematic representation of the four tasks designed for a robo
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/1_task.webp" style="height: 399px; width:700px;"/>
 <br>
-Task 1. **Peg in a hole** 
+1. **Peg in a hole** 
     * The task involves inserting a peg into a hole with a tight clearance. This requires precise force control to avoid damaging the components.
-Task 2. **Obstacle** 
+2. **Obstacle** 
     * The robot arm must navigate around a rectangular obstacle. This requires path planning to create a collision-free route and position control to execute the planned path accurately.
-Task 3. **Zigzag groove** 
+3. **Zigzag groove** 
     * The arm must follow a zigzag groove with a tight clearance, necessitating path planning to determine the optimal path through the groove and force control to maintain the correct path without excessive pressure that could cause deviation or damage.
-Task 4. **Egg** 
+4. **Egg** 
     * The final task involves carefully lowering an egg onto a spring. This requires delicate force control to ensure that the egg is not broken by the descent.
 
 Each task is designed to test different aspects of the robot arm's control systems, focusing on both the precision of movement and the modulation of applied force.
