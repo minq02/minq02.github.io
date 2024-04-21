@@ -1,16 +1,14 @@
-- title: University High School
-  from: 2016
-  to: 2020
-  description: Irvine, CA
+- title: University of Michigan Ann Arbor
+  from: 2024
+  to: present
+  description: M.S. in Robotics
 
 - title: University of Illinois at Urbana-Champaign
   from: 2020
   to: 2024
   description: B.S. in Mechanical Engineering
-               Minor in Computer Science
 
-
-- title: University of Michigan Ann Arbor
-  from: 2024
-  to: present
-  description: M.S. in Robotics
+  - title: University High School, Irvine CA
+  from: 2016
+  to: 2020
+  description:
