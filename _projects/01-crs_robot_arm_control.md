@@ -14,9 +14,11 @@ The project aimed to program a robot arm to perform a series of tasks using posi
 
 ### Video demo
 <br>
-<iframe width="560" height="315" src="https://youtu.be/AmYiXs0ZLRw" 
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AmYiXs0ZLRw" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+</div>
 <br>
 
 
