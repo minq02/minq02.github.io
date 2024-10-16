@@ -11,10 +11,10 @@ Hi I am **{{ site.author.name }}** :wave:
 <br>
 
 <br>
-<center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.jpg" width=380/></center>
+<center><img src="{{ site.url }}{{ site.baseurl }}/assets/profile.png" width=380/></center>
 <br>
 
-I am currently a graduate student at the University of Michigan, where I am deeply engaged in the field of robotics and automation. My primary focus is on perception, localization, and mapping—key areas that drive innovations in robotic systems. Through my studies and research, I strive to develop solutions that enhance robotic capabilities in complex environments.
+I’m a Master’s student in Robotics at the University of Michigan with a Bachelor's in Mechanical Engineering. My passion lies in developing cutting-edge control algorithms and autonomous systems for robotics. With hands-on experience in both hardware and software integration, I’ve worked on advanced robotics projects, including real-time control systems, trajectory optimization, and data-driven performance analysis. I’m dedicated to applying innovative technologies to solve complex real-world problems in robotics and automation.
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
