@@ -28,7 +28,7 @@ The project involved fine-tuning the YOLOv8 model with approximately 2,000 custo
     <br>
 - **Labeling and Augmentation**: Augmented the dataset with grayscale, hue, and cutout transformations to improve detection accuracy.
     <br>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/2_image_sets.gif" style="height: 342px; width:700px;"/>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/2_image_sets.png" style="height: 342px; width:700px;"/>
     <br>
 
 <br>
@@ -42,10 +42,13 @@ The project involved fine-tuning the YOLOv8 model with approximately 2,000 custo
 ### Challenges and Results
 - Overcame challenges in fine-tuning YOLOv8 to detect fast-moving objects in a cluttered environment.
 - Used color-based segmentation to track ball possession, though there are challenges with occlusions and overlapping players.
-
-    <br>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/2_soccer_tracking_analysis.gif" style="height: 401px; width:700px;"/>
-    <br>
+<br>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tNqro0pBmVY" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+</div>
+<br>
 
 
 <br>
