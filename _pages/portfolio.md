@@ -46,6 +46,24 @@ Hi, I am Min Kyu :wave:
 
 <div class="container">
   <div class="image-container">
+    <a href="/portfolio_page/bigant">
+      <img src="{{site.baseurl}}/assets/images/bigant/bigant.png" alt="bigant">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <a href="/portfolio_page/bigant" class="title-link">
+        <h3>Gait Parameter Estimation for Stair Climbing Hexapod Using Visual Data</h3>
+      </a>
+    </div>
+    <div class="text-content">
+      <p>This project involved estimating gait parameters—shift and skew—using visual data from AprilTag detections during the BigANT robot's stair-climbing experiments. The study processed visual data and implemented homography for accurate staircase mapping, enabling precise gait analysis based on real-world trials.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
     <a href="/portfolio_page/omnids">
       <img src="{{site.baseurl}}/assets/images/omnids.gif" alt="omnids">
     </a>
