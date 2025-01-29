@@ -32,7 +32,7 @@ Hi, I am Min Kyu :wave:
     <tr>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/umich.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">
-        <strong>University of Michigan</strong> <br> 08/2024 - Present <br> M.S. in Robotics
+        <strong>University of Michigan Ann Arbor</strong> <br> 08/2024 - Present <br> M.S. in Robotics
       </td>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/uiuc.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">

@@ -66,7 +66,7 @@ author:
   avatar : "/assets/images/profile/bio-photo.png"
   bio    : "Robotics @ Michigan"
   links:
-    - label: "Ann Arbor, MI"
+    - label: "Irvine, CA"
       icon: "fas fa-fw fa-map-marker-alt"
       url: ""
     - label: "GitHub"
