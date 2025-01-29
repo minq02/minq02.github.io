@@ -53,11 +53,11 @@ Hi, I am Min Kyu :wave:
   <div class="text-container">
     <div class="header-row">
       <a href="/portfolio_page/bigant" class="title-link">
-        <h3>Gait Parameter Estimation for Stair Climbing Hexapod Using Visual Data</h3>
+        <h3>Staircase Detection for Hexapod Robot Using Visual Processing</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>This project involved estimating gait parameters—shift and skew—using visual data from AprilTag detections during the BigANT robot's stair-climbing experiments. The study processed visual data and implemented homography for accurate staircase mapping, enabling precise gait analysis based on real-world trials.</p>
+      <p>This project uses computer vision techniques—background extraction, homography, masking, Radon Transform, and peak detection—to accurately identify stair edges for robotic gait analysis and navigation.</p>
     </div>
   </div>
 </div>
