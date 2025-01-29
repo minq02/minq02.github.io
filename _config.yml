@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Home
+footer_name: Min Kyu Kim
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Robotics Student
