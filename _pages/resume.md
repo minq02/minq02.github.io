@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <div style="text-align: center;">
-  <iframe src="{{ site.baseurl }}/assets/resume.pdf" width="80%" height="600px" style="border: none;"></iframe>
+  <iframe src="{{ site.baseurl }}/assets/resume.pdf" width="100%" height="1200px" style="border: none;"></iframe>
 </div>
 
 <p style="text-align: center;">
