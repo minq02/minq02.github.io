@@ -1,6 +1,6 @@
 ---
 title: "Staircase Detection for Hexapod Robot Using Visual Processing"
-author_profile: false
+author_profile: true
 toc: false
 key: -2
 header:
