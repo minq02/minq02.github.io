@@ -46,13 +46,13 @@ Hi, I am Min Kyu :wave:
 
 <div class="container">
   <div class="image-container">
-    <a href="/portfolio_page/bigant">
+    <a href="/project/bigant">
       <img src="{{site.baseurl}}/assets/images/bigant/bigant.png" alt="bigant">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/portfolio_page/bigant" class="title-link">
+      <a href="/project/bigant" class="title-link">
         <h3>Staircase Detection for Hexapod Robot Using Visual Processing</h3>
       </a>
     </div>
@@ -64,13 +64,13 @@ Hi, I am Min Kyu :wave:
 
 <div class="container">
   <div class="image-container">
-    <a href="/portfolio_page/omnids">
+    <a href="/project/omnids">
       <img src="{{site.baseurl}}/assets/images/omnids.gif" alt="omnids">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/portfolio_page/omnids" class="title-link">
+      <a href="/project/omnids" class="title-link">
         <h3>Action Chunking with Transformers (ACT) for Assistive Action Prediction</h3>
       </a>
     </div>

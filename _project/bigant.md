@@ -8,9 +8,7 @@ header:
 classes: wide
 ---
 
-## Project Overview* 
-
-![apriltag-visualization]({{ site.url }}{{ site.baseurl }}/assets/images/bigant/bigant_whole.png)
+![bigant]({{ site.url }}{{ site.baseurl }}/assets/images/bigant/bigant_whole.png)
 
 This project focuses on detecting staircases using computer vision techniques, enabling accurate analysis for robotic navigation. The process includes:  
 
@@ -23,28 +21,26 @@ This project focuses on detecting staircases using computer vision techniques, e
 
 This method ensures precise stair edge identification, supporting gait analysis and robotic motion planning.
 
----
-
-## Part I: Background Extraction
+## Background Extraction
 
 This project ...
 
-## Part II: Homography Transformation
+## Homography Transformation
 
 This project ...
 
-## Part III: Masking
+## Masking
 
 This project ...
 
-## Part IV: Radon Transform
+## Radon Transform
 
 This project ...
 
-## Part V: Peak Detection
+## Peak Detection
 
 This project ...
 
-## Part VI: Staircase Detection
+## Staircase Detection
 
 This project ...
