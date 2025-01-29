@@ -75,7 +75,7 @@ author:
       icon: "fa fa-fw fa-envelope"
       url: "mailto:andrewkimminkyu@gmail.com"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/minq02/"
     
 
