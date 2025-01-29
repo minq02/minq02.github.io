@@ -10,9 +10,7 @@ redirect_from:
 
 ## About Me
 
-Hi I am Min Kyu :wave:
-
-I’m a Master’s student in Robotics at the University of Michigan with a Bachelor's in Mechanical Engineering.
+Hi, I am Min Kyu :wave:
 
 ## Professional Experience
 <table>
@@ -20,10 +18,10 @@ I’m a Master’s student in Robotics at the University of Michigan with a Bach
     <tr>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/ar.jpg" alt="ar" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Stanford AI Lab</strong> <br> 01/2025 - present <br> Robot SysEng Co-op</td>
+        <strong>Amazon Robotics</strong> <br> 01/2025 - present <br> Robotics SysEng Co-op</td>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/hinetics.jpg" alt="hinetics" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Johnson & Johnson</strong> <br> 08/2023 - 12/2023 <br> Mech Eng Intern</td>
+        <strong>Hinetics</strong> <br> 08/2023 - 12/2023 <br> Mechanical Eng Intern</td>
     </tr>
   </tbody>
 </table>
@@ -34,7 +32,7 @@ I’m a Master’s student in Robotics at the University of Michigan with a Bach
     <tr>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/umich.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">
-        <strong>University of Michigan Ann-Arbor</strong> <br> 08/2024 - present <br> M.S. in Robotics
+        <strong>University of Michigan</strong> <br> 08/2024 - present <br> M.S. in Robotics
       </td>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/uiuc.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">
