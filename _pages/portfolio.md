@@ -12,16 +12,16 @@ redirect_from:
 
 Hi, I am Min Kyu :wave:
 
-## Professional Experience
+## Experience
 <table>
   <tbody>
     <tr>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/ar.jpg" alt="ar" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Amazon Robotics</strong> <br> Jan 2025 - Present <br> Robotics System Eng Co-op</td>
+        <strong>Amazon Robotics</strong> <br> 01/2025 - Present <br> Robotics System Eng Co-op</td>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/hinetics.jpg" alt="hinetics" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Hinetics</strong> <br> Aug 2023 - Sep 2023 <br> Mechanical Eng Intern</td>
+        <strong>Hinetics</strong> <br> 08/2023 - 12/2023 <br> Mechanical Eng Intern</td>
     </tr>
   </tbody>
 </table>
@@ -32,11 +32,11 @@ Hi, I am Min Kyu :wave:
     <tr>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/umich.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">
-        <strong>University of Michigan</strong> <br> Aug 2024 - Present <br> M.S. in Robotics
+        <strong>University of Michigan</strong> <br> 08/2024 - Present <br> M.S. in Robotics
       </td>
       <td style="border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/uiuc.jpg" alt="umich" width="60"></td>
       <td style="border-bottom-width:0;">
-        <strong>University of Illinois Urbana-Champaign</strong> <br> Aug 2020 - May 2024 <br> B.S. in Mechanical Engineering
+        <strong>University of Illinois Urbana-Champaign</strong> <br> 08/2020 - 05/2024 <br> B.S. in Mechanical Engineering
       </td>
     </tr>
   </tbody>
