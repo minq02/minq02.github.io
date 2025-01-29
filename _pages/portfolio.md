@@ -62,7 +62,7 @@ Hi, I am Min Kyu :wave:
   </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="image-container">
     <a href="/project/omnids">
       <img src="{{site.baseurl}}/assets/images/omnids.gif" alt="omnids">
@@ -78,7 +78,7 @@ Hi, I am Min Kyu :wave:
       <p>This project aims to enhance human-robot collaboration with Omnid Mocobots by implementing imitation learning approaches (Action Chunking with Transformers and Diffusion Policy) to predict human intent during co-manipulation tasks.</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <style>
 .container {
