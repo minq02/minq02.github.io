@@ -18,10 +18,10 @@ Hi, I am Min Kyu :wave:
     <tr>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/ar.jpg" alt="ar" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Amazon Robotics</strong> <br> 01/2025 - present <br> Robotics System Eng Co-op</td>
+        <strong>Amazon Robotics</strong> <br> Jan 2025 - Present <br> Robotics System Eng Co-op</td>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/hinetics.jpg" alt="hinetics" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Hinetics</strong> <br> 08/2023 - 12/2023 <br> Mechanical Eng Intern</td>
+        <strong>Hinetics</strong> <br> Aug 2023 - Sep 2023 <br> Mechanical Eng Intern</td>
     </tr>
   </tbody>
 </table>
