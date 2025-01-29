@@ -1,7 +1,7 @@
 ---
 title: "Staircase Detection for Hexapod Robot Using Visual Processing"
-author_profile: true
-toc: true
+author_profile: false
+toc: false
 key: -2
 header:
   teaser: /assets/images/bigant/bigant.png
