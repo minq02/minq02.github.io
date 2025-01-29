@@ -18,7 +18,7 @@ Hi, I am Min Kyu :wave:
     <tr>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/ar.jpg" alt="ar" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Amazon Robotics</strong> <br> 01/2025 - present <br> Robotics SysEng Co-op</td>
+        <strong>Amazon Robotics</strong> <br> 01/2025 - present <br> Robotics System Eng Co-op</td>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/hinetics.jpg" alt="hinetics" width="60"></td>
       <td style = "border-bottom-width:0;">
         <strong>Hinetics</strong> <br> 08/2023 - 12/2023 <br> Mechanical Eng Intern</td>
@@ -42,7 +42,7 @@ Hi, I am Min Kyu :wave:
   </tbody>
 </table>
 
-## Past Projects
+## Projects
 
 <div class="container">
   <div class="image-container">
