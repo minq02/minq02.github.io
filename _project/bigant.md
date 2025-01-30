@@ -57,3 +57,5 @@ The final stage involved overlaying the detected edges onto the original rectifi
 ![result]({{ site.url }}{{ site.baseurl }}/assets/images/bigant/result.png)
 
 By leveraging a combination of computer vision techniques—including background extraction, homography transformation, and line detection—this project enables robust, sensor-free step tracking based purely on video analysis. This work has implications for improving autonomous navigation in legged robots and can be extended to other scenarios requiring real-time terrain recognition.
+
+This work was conducted as part of a research project, and the code is not publicly available. However, questions and inquiries are welcome via email.
