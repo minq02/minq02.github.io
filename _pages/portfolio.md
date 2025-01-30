@@ -49,7 +49,7 @@ redirect_from:
   <div class="text-container">
     <div class="header-row">
       <a href="/project/bigant" class="title-link">
-        <h3>Staircase Detection for Hexapod Robot Using Visual Processing</h3>
+        <h3>Staircase Detection for Hexapod Robot Using Image Processing</h3>
       </a>
     </div>
     <div class="text-content">
@@ -58,23 +58,23 @@ redirect_from:
   </div>
 </div>
 
-<!-- <div class="container">
+<div class="container">
   <div class="image-container">
-    <a href="/project/omnids">
-      <img src="{{site.baseurl}}/assets/images/omnids.gif" alt="omnids">
+    <a href="/project/spotmicro">
+      <img src="{{site.baseurl}}/assets/images/spotmicro/spotmicro.gif" alt="spotmicro">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/omnids" class="title-link">
-        <h3>Action Chunking with Transformers (ACT) for Assistive Action Prediction</h3>
+      <a href="/project/spotmicro" class="title-link">
+        <h3>Development and Navigation of an Open-Source Quadruped Robot: SpotMicroAI</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>This project aims to enhance human-robot collaboration with Omnid Mocobots by implementing imitation learning approaches (Action Chunking with Transformers and Diffusion Policy) to predict human intent during co-manipulation tasks.</p>
+      <p>Developed and programmed an open-source SpotMicro, a quadruped robot inspired by Boston Dynamics. Controlled using a Jetson Nano running Ubuntu 20.04, integrated with ROS2 Foxy. Equipped with a 2D LiDAR and an IMU for mapping and navigation.</p>
     </div>
   </div>
-</div> -->
+</div>
 
 <style>
 .container {
