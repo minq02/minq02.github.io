@@ -42,13 +42,13 @@ The staircase consists of a series of parallel steps, making line detection a ke
 
 ![radon]({{ site.url }}{{ site.baseurl }}/assets/images/bigant/radon.png)
 
-By projecting the image intensities along multiple angles, the transform highlighted dominant edge features corresponding to the staircase steps. The resulting sinogram—a graphical representation of detected lines—served as a foundation for extracting step boundaries.
+By projecting the image intensities along multiple angles, the Radon Transform highlighted dominant edge features corresponding to the staircase steps. The resulting sinogram—a graphical representation of detected lines—served as the foundation for extracting step boundaries. From the sinogram, high-intensity points are observed around 90 degrees, indicating that the staircase edges are well-detected. This is expected, as the steps are horizontal and align with the 90-degree orientation in the transform.
 
 ## Peak Detection
 
 ![peak]({{ site.url }}{{ site.baseurl }}/assets/images/bigant/peak.png)
 
-With the staircase edges detected via the Radon Transform, peak detection algorithms were implemented to precisely identify the locations of individual steps. Intensity profiles were analyzed to extract prominent peaks corresponding to step edges, ensuring a structured and reliable detection method.
+With the staircase edges detected via the Radon Transform, peak detection algorithms were implemented to precisely identify the locations of individual steps. Intensity profiles were analyzed to extract prominent peaks corresponding to step edges, ensuring a structured and reliable detection method. At 90 degrees, the coordinates of the detected peaks must align with the staircase edges, confirming the accuracy of the step detection process.
 
 ## Staircase Detection
 
