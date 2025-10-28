@@ -12,10 +12,10 @@ redirect_from:
   I'm a Masters Student at University of Michigan, advised by Prof.
   <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/">Maani Ghaffari</a>
   at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
-  My research interest lies in reliable perception & mapping for field robots, building sensor fusion and semantics aware systems that yield actionable world models, optimized under uncertainty, resilient to dynamics, and proven from sim to real.
+  My research interest lies in dependable perception and mapping for field robots, designing sensor-fusion and semantics-aware algorithms that transform multi-modal sensor data into robust, actionable world models. I focus on optimization under uncertainty, dynamic-scene robustness, and practical systems that transfer from simulation to real-world deployment.
 </p>
 
-<h2 class="portfolio-section-title">Experience</h2>
+<h2 class="portfolio-section-title">Work Experience</h2>
 <table>
   <tbody>
     <tr>

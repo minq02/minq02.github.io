@@ -1,10 +1,13 @@
 ---
 permalink: /resume/
-title: "Resume"
+title: ""
 layout: home
 classes: wide
 ---
 
-<div style="text-align: center;">
-  <iframe src="{{ site.baseurl }}/assets/resume.pdf" width="90%" height="1130px" style="border: none;"></iframe>
+<div style="text-align:center;">
+  <iframe
+    src="{{ site.baseurl }}/assets/resume.pdf"
+    style="width:min(100%, 900px); height:calc(100vh - 120px); border:none;"
+  ></iframe>
 </div>
