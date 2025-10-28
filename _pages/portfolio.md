@@ -49,6 +49,42 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
+    <a href="/project/armlab">
+      <img src="{{site.baseurl}}/assets/images/armlab/armlab.gif" alt="armlab">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <a href="/project/armlab" class="title-link">
+        <h3>Vision-Guided Robot Arm Control with Intel RealSense</h3>
+      </a>
+    </div>
+    <div class="text-content">
+      <p>Developed autonomous motion control functionality for a 5-DOF robot using ROS2 in Python.<br>Calibrated camera extrinsic and intrinsic parameters and performed depth/block detection with OpenCV.<br>Implemented forward and inverse kinematics; calculated waypoint distances to optimize motion speed</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
+    <a href="/project/botlab">
+      <img src="{{site.baseurl}}/assets/images/botlab/botlab.gif" alt="botlab">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <a href="/project/botlab" class="title-link">
+        <h3>Mobile Robot Autonomous Navigation: SLAM & A*</h3>
+      </a>
+    </div>
+    <div class="text-content">
+      <p>Implemented PID wheel speed controller using gyrodometry and tuned gains for stable motion.<br>Developed SLAM pipeline with Monte Carlo Localization and LIDAR-based occupancy grid mapping in C++.<br>Executed A* path planning and frontier-based exploration for autonomous navigation</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
     <a href="/project/bigant">
       <img src="{{site.baseurl}}/assets/images/bigant/bigant.png" alt="bigant">
     </a>
@@ -61,24 +97,6 @@ redirect_from:
     </div>
     <div class="text-content">
       <p>This project uses computer vision techniques—background extraction, homography, masking, Radon Transform, and peak detection—to accurately identify stair edges for robotic gait analysis and navigation.</p>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="image-container">
-    <a href="/project/spotmicro">
-      <img src="{{site.baseurl}}/assets/images/spotmicro/spotmicro.gif" alt="spotmicro">
-    </a>
-  </div>
-  <div class="text-container">
-    <div class="header-row">
-      <a href="/project/spotmicro" class="title-link">
-        <h3>Development and Navigation of an Open-Source Quadruped Robot: SpotMicroAI</h3>
-      </a>
-    </div>
-    <div class="text-content">
-      <p>Developed and programmed an open-source SpotMicro, a quadruped robot inspired by Boston Dynamics. Controlled using a Jetson Nano running Ubuntu 20.04, integrated with ROS2 Foxy. Equipped with a 2D LiDAR and an IMU for mapping and navigation.</p>
     </div>
   </div>
 </div>
