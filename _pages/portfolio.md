@@ -49,6 +49,24 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
+    <a href="/project/depthanything">
+      <img src="{{site.baseurl}}/assets/images/depthany/depthany.gif" alt="depthanything">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <a href="/project/depthanything" class="title-link">
+        <h3>Monocular Depth Estimation on the WAM-V</h3>
+      </a>
+    </div>
+    <div class="text-content">
+      <p>This project turns single-camera depth from reference scale into meters: Normalize Depth-Anything V2 output, fit an inverse-depth map, and validate with point-cloud reprojection for reliable ASV perception in simulation</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
     <a href="/project/armlab">
       <img src="{{site.baseurl}}/assets/images/armlab/armlab.gif" alt="armlab">
     </a>
