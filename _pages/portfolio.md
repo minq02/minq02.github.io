@@ -7,14 +7,21 @@ redirect_from:
   - /portfolio/
   - /portfolio
 ---
+<h2 class="portfolio-section-title">About Me</h2>
+<p class="about-me-text">
+  I'm a Masters Student at University of Michigan, advised by Prof.
+  <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/">Maani Ghaffari</a>
+  at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
+  My research interest lies in reliable perception & mapping for field robots, building sensor fusion and semantics aware systems that yield actionable world models, optimized under uncertainty, resilient to dynamics, and proven from sim to real.
+</p>
 
-## Experience
+<h2 class="portfolio-section-title">Experience</h2>
 <table>
   <tbody>
     <tr>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/ar.jpg" alt="ar" width="60"></td>
       <td style = "border-bottom-width:0;">
-        <strong>Amazon Robotics</strong> <br> 01/2025 - Present <br> Robotics System Eng Co-op</td>
+        <strong>Amazon Robotics</strong> <br> 01/2025 - 06/2025 <br> Robotics System Eng Co-op</td>
       <td style = "border-bottom-width:0;"><img src="{{site.baseurl}}/assets/images/main/hinetics.jpg" alt="hinetics" width="60"></td>
       <td style = "border-bottom-width:0;">
         <strong>Hinetics</strong> <br> 08/2023 - 12/2023 <br> Mechanical Eng Intern</td>
@@ -22,7 +29,7 @@ redirect_from:
   </tbody>
 </table>
 
-## Education
+<h2 class="portfolio-section-title">Education</h2>
 <table>
   <tbody>
     <tr>
@@ -38,7 +45,7 @@ redirect_from:
   </tbody>
 </table>
 
-## Projects
+<h2 class="portfolio-section-title">Projects</h2>
 
 <div class="container">
   <div class="image-container">
@@ -147,5 +154,15 @@ table img {
   font-size: 0.6rem;
   line-height: 1.4;
   color: #666;
+}
+
+.portfolio-section-title {
+  font-size: 1.1rem;   
+  margin-bottom: 0.5rem;
+}
+
+.about-me-text {
+  font-size: 0.85rem;
+  line-height: 1.5;
 }
 </style>
