@@ -4,5 +4,5 @@
 
 ## Local Test
 1. Run `bundle install`
-2. Run `bundlexec jekyll serve --livereload`
+2. Run `bundle exec jekyll serve --livereload`
 3. Navigate to "http://127.0.0.1:4000/"
