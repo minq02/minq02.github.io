@@ -9,7 +9,7 @@ classes: wide
 ---
 <div class="project-update">
   <strong>Last Project Update: 10/16/2025</strong>
-  <p>Currently working on..</p>
+  <p>Currently working on:</p>
   <ul style="margin: 0.5rem 0 0 1rem;">
     <li>Benchmarking against other monocular depth models (e.g., Apple Depth Pro, ZoeDepth, LeReS) on VRX/field clips</li>
     <li>Log-linear inverse-depth calibration with robust least squares (Huber/Tukey) to handle outliers/specular water</li>

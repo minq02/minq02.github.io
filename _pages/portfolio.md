@@ -45,7 +45,25 @@ redirect_from:
   </tbody>
 </table>
 
-<h2 class="portfolio-section-title">Projects</h2>
+<h2 class="portfolio-section-title">Active Projects</h2>
+
+<div class="container">
+  <div class="image-container">
+    <a href="/project/objectslam">
+      <img src="{{site.baseurl}}/assets/images/objectslam/gsam2.gif" alt="object-slam">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <a href="/project/objectslam" class="title-link">
+        <h3>Object-SLAM: 2D Semantic Mapping with Grounded-SAM 2 + GTSAM</h3>
+      </a>
+    </div>
+    <div class="text-content">
+      <p>Zero-shot masks → tracked landmarks → SE(2) factor graph for a clean, metrically consistent object map and smoothed trajectory.</p>
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="image-container">
@@ -56,14 +74,16 @@ redirect_from:
   <div class="text-container">
     <div class="header-row">
       <a href="/project/depthanything" class="title-link">
-        <h3>Monocular Depth Estimation on the WAM-V</h3>
+        <h3>Calibrated Monocular Depth on the WAM-V</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>This project turns single-camera depth from reference scale into meters: Normalize Depth-Anything V2 output, fit an inverse-depth map, and validate with point-cloud reprojection for reliable ASV perception in simulation</p>
+      <p>Depth-Anything V2 scaled to meters via inverse-depth fit; project RGBD to colored point clouds and validate against LiDAR in VRX and field runs.</p>
     </div>
   </div>
 </div>
+
+<h2 class="portfolio-section-title">Completed Projects</h2>
 
 <div class="container">
   <div class="image-container">
@@ -74,11 +94,11 @@ redirect_from:
   <div class="text-container">
     <div class="header-row">
       <a href="/project/armlab" class="title-link">
-        <h3>Vision-Guided Robot Arm Control with Intel RealSense</h3>
+        <h3>Vision-Guided 5-DoF Arm: Pick & Place with RealSense</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>Developed autonomous motion control functionality for a 5-DOF robot using ROS2 in Python.<br>Calibrated camera extrinsic and intrinsic parameters and performed depth/block detection with OpenCV.<br>Implemented forward and inverse kinematics; calculated waypoint distances to optimize motion speed</p>
+      <p>ROS 2 pipeline with camera calibration, block/depth detection, and IK. Built teach-and-repeat motions and tuned speeds for reliable autonomous grasping.</p>
     </div>
   </div>
 </div>
@@ -92,11 +112,11 @@ redirect_from:
   <div class="text-container">
     <div class="header-row">
       <a href="/project/botlab" class="title-link">
-        <h3>Mobile Robot Autonomous Navigation: SLAM & A*</h3>
+        <h3>Mobile Robot: SLAM + A* Exploration</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>Implemented PID wheel speed controller using gyrodometry and tuned gains for stable motion.<br>Developed SLAM pipeline with Monte Carlo Localization and LIDAR-based occupancy grid mapping in C++.<br>Executed A* path planning and frontier-based exploration for autonomous navigation</p>
+      <p>Implemented PID velocity control with gyrodometry; built occupancy-grid SLAM with MCL in C++; executed A* planning and frontier-based exploration.</p>
     </div>
   </div>
 </div>
@@ -110,11 +130,11 @@ redirect_from:
   <div class="text-container">
     <div class="header-row">
       <a href="/project/bigant" class="title-link">
-        <h3>Staircase Detection for Hexapod Robot Using Image Processing</h3>
+        <h3>Hexapod Staircase Edge Detection</h3>
       </a>
     </div>
     <div class="text-content">
-      <p>This project uses computer vision techniques—background extraction, homography, masking, Radon Transform, and peak detection—to accurately identify stair edges for robotic gait analysis and navigation.</p>
+      <p>AprilTags + homography with background extraction, Radon-based edge finding, and peak detection to localize stair edges for gait analysis.</p>
     </div>
   </div>
 </div>
