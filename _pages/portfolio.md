@@ -12,7 +12,8 @@ redirect_from:
   I'm a Masters Student at University of Michigan, advised by Prof.
   <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/">Maani Ghaffari</a>
   at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
-  My research work is on semantic-aware mapping and sensor fusion for field robots. I use factor-graph optimization to turn multi-modal data into reliable, usable maps.
+  My research work is on semantic-aware mapping and sensor fusion for field robots. I use factor-graph optimization to turn multi-modal data into reliable, usable maps. <br><br>
+  Concurrently, I am working on an industry-sponsored research project on automated trailer localization in water-surface environments 
 </p>
 
 <h2 class="portfolio-section-title">Work Experience</h2>
