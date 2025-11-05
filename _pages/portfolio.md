@@ -9,11 +9,12 @@ redirect_from:
 ---
 <h2 class="portfolio-section-title">About Me</h2>
 <p class="about-me-text">
-  I'm a Masters Student at University of Michigan, advised by Prof.
-  <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/">Maani Ghaffari</a>
-  at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
-  My research work is on semantic-aware mapping and sensor fusion for field robots. I use factor-graph optimization to turn multi-modal data into reliable, usable maps. <br><br>
-  Concurrently, I am working on an industry-sponsored research project on automated trailer localization in water-surface environments 
+  I'm a <strong>Master’s student</strong> at the <strong>University of Michigan</strong>, advised by
+  <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/"><strong>Maani Ghaffari</strong></a>
+  at <a href="https://curly.engin.umich.edu/"><strong>CURLY</strong></a>.<br><br>
+  My research focuses on <strong>robust 3-D perception</strong> for field robots through <em>object-level mapping</em>, <em>uncertainty-aware multi-sensor fusion</em>, and <em>line/edge-based geometric cues</em>. Currently, I am building a <em>semantic-aware SLAM stack</em> that casts detections, line primitives, and odometry as factors in a <strong>GTSAM-based factor graph</strong>, optimizing robot and object poses with <em>robust losses</em> and <em>calibrated uncertainties</em>.
+  <br><br>
+  Concurrently, I am working on an <strong>industry-sponsored</strong> research project on <em>robust localization</em> of boat trailers in <em>boat-docking scenarios</em>.
 </p>
 
 <h2 class="portfolio-section-title">Work Experience</h2>
