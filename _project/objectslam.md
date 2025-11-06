@@ -8,12 +8,11 @@ header:
 classes: wide
 ---
 <div class="project-update">
-  <strong>Last Project Update: 11/1/2025</strong>
+  <strong>Last Project Update: 11/6/2025</strong>
   <p>Currently working on:</p>
   <ul style="margin:0.5rem 0 0 1rem;">
-    <li>Landmark promotion: require K hits within Δt</li>
-    <li>Adaptive covariance from range + LiDAR point count</li>
-    <li>Fine-tuning Grounded-SAM 2 for higher precision/recall</li>
+    <li>Include orientation (from PCA) to GTSAM point landmarks</li>
+    <li>Fine-tuning Semantic Segmentation Model for higher precision/recall</li>
   </ul>
 </div>
 
@@ -22,6 +21,22 @@ classes: wide
 <p class="text">
 A 2D object-centric SLAM system: Grounded-SAM 2 produces semantic landmarks, and a GTSAM factor graph jointly optimizes robot pose (SE(2)) and landmark positions to yield an object-level BEV map and a smoothed trajectory.
 </p>
+
+<h3>Demo — Tracking + GTSAM Optimization</h3>
+<figure>
+  <img src="/assets/images/objectslam/demo.gif" alt="RViz: GTSAM-optimized pose and object map" style="max-width:90%; display:block; margin:0 auto; border-radius:12px;" />
+  <figcaption style="font-size:0.8rem; color:#666; margin-top:0.35rem;">
+    RViz output: incremental GTSAM optimization (poses in SE(2)) with object landmarks.
+  </figcaption>
+</figure>
+
+<p class="text">
+End-to-end (perception → LiDAR-in-mask → tracking → GTSAM) yields a smoother trajectory and a coherent object map. Stable IDs persist across frames; landmarks tug the pose into global consistency.
+</p>
+<ul>
+  <li><strong>Pose:</strong> drift reduced; turns tighten after optimization.</li>
+  <li><strong>Landmarks:</strong> buoys posts cluster with reasonable covariance.</li>
+</ul>
 
 <h3>System Overview</h3>
 <figure>
@@ -131,33 +146,6 @@ Detections are matched to tracks with Mahalanobis gating. Because range is noisi
 <p class="text">
 Takeaway: Mahalanobis gating respects the uncertainty geometry, reducing false matches and stabilizing IDs for the GTSAM factors.
 </p>
-
-<h3>Results — Tracking + GTSAM Optimization</h3>
-<figure>
-  <img src="/assets/images/objectslam/gtsam.gif" alt="RViz: GTSAM-optimized pose and object map" style="max-width:90%; display:block; margin:0 auto; border-radius:12px;" />
-  <figcaption style="font-size:0.8rem; color:#666; margin-top:0.35rem;">
-    RViz output: incremental GTSAM optimization (poses in SE(2)) with object landmarks.
-  </figcaption>
-</figure>
-
-<p class="text">
-End-to-end (perception → LiDAR-in-mask → tracking → GTSAM) yields a smoother trajectory and a coherent object map. Stable IDs persist across frames; landmarks tug the pose into global consistency.
-</p>
-<ul>
-  <li><strong>Pose:</strong> drift reduced; turns tighten after optimization.</li>
-  <li><strong>Landmarks:</strong> buoys/dock posts cluster with reasonable covariance.</li>
-  <li><strong>Loops:</strong> revisits contract local clusters and visually reduce pose error.</li>
-</ul>
-
-<h3>Next Steps</h3>
-
-<p class="text">
-Some outliers still reach the optimizer, creating stray points. I am planning on adjusting algorithm before adding landmarks to the graph:
-</p>
-<ul>
-  <li>Promote only after ≥ K hits within Δt</li>
-  <li>Periodic merge/cull of low-support landmarks</li>
-</ul>
 
 <style>
 .title { font-size: 1.1rem; margin-bottom: 0.5rem; }
