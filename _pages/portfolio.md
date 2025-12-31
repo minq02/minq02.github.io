@@ -14,7 +14,7 @@ redirect_from:
   at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
   My research focuses on <strong>robust 3-D perception</strong> for field robots through <em>object-level mapping</em>, <em>uncertainty-aware multi-sensor fusion</em>, and <em>line/edge-based geometric cues</em>. Currently, I am building a <em>semantic-aware SLAM stack</em> that casts detections, line primitives, and odometry as factors in a <strong>GTSAM-based factor graph</strong>, optimizing robot and object poses with <em>robust losses</em> and <em>calibrated uncertainties</em>.
   <br><br>
-  Concurrently, I am working on an <strong>industry-sponsored</strong> research project on <em>robust localization</em> of boat trailers in <em>boat-docking scenarios</em>.
+  Concurrently, I am working on an <strong>industry-sponsored</strong> research project on <em>robust localization</em> of an object in <em>boat-docking scenarios</em>.
 </p>
 
 <h2 class="portfolio-section-title">Work Experience</h2>
