@@ -9,12 +9,17 @@ redirect_from:
 ---
 <h2 class="portfolio-section-title">About Me</h2>
 <p class="about-me-text">
-  I'm a <strong>Master’s student</strong> at the <strong>University of Michigan</strong>, advised by Prof. 
+  I'm a <strong>Master’s student in Robotics</strong> at the <strong>University of Michigan</strong>, advised by Prof. 
   <a href="https://robotics.umich.edu/people/faculty/maani-ghaffari/">Maani Ghaffari</a>
-  at <a href="https://curly.engin.umich.edu/">CURLY</a>.<br><br>
-  My research focuses on <strong>robust 3-D perception</strong> for field robots through <em>object-level mapping</em>, <em>uncertainty-aware multi-sensor fusion</em>, and <em>line/edge-based geometric cues</em>. Currently, I am building a <em>semantic-aware SLAM stack</em> that casts detections, line primitives, and odometry as factors in a <strong>GTSAM-based factor graph</strong>, optimizing robot and object poses with <em>robust losses</em> and <em>calibrated uncertainties</em>.
+  at the Computational Autonomy and Robotics Laboratory (<a href="https://curly.engin.umich.edu/">CURLY</a>).<br><br>
+  My research focuses on robust <strong>3D perception</strong> and <strong>state estimation</strong> in unstructured environments. 
+  I am currently architecting a <strong>semantic-aware SLAM</strong> that fuses object detections, geometric primitives, and odometry 
+  into a unified <strong>GTSAM factor graph</strong> to achieve metrically consistent mapping.
   <br><br>
-  Concurrently, I am working on an <strong>industry-sponsored</strong> research project on <em>robust localization</em> of an object in <em>boat-docking scenarios</em>.
+  In parallel, I serve as the <strong>sole researcher</strong> for an industry-sponsored project with the <strong>Honda Research Institute</strong>, 
+  designing robust 3D pose estimation and localization frameworks for <strong>autonomous marine vessels</strong>. 
+  <br><br>
+  Previously, I led robotic fleet deployment at <strong>Amazon Robotics</strong> and studied Mechanical Engineering at <strong>UIUC</strong>.
 </p>
 
 <h2 class="portfolio-section-title">Work Experience</h2>
@@ -51,15 +56,16 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
-    <a href="/project/objectslam">
+    <a>
       <img src="{{site.baseurl}}/assets/images/objectslam/gsam2.gif" alt="object-slam">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/objectslam" class="title-link">
-        <h3>Object-SLAM: 2D Semantic Mapping with Grounded-SAM 2 + GTSAM</h3>
-      </a>
+      <h3>Object-SLAM: 2D Semantic Mapping with Grounded-SAM 2 + GTSAM</h3>
+    </div>
+    <div class="link-row">
+      <a href="/project/objectslam" class="more-link">Project Page</a>
     </div>
     <div class="text-content">
       <p>Zero-shot masks → tracked landmarks → SE(2) factor graph for a clean, metrically consistent object map and smoothed trajectory.</p>
@@ -69,15 +75,16 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
-    <a href="/project/depthanything">
+    <a>
       <img src="{{site.baseurl}}/assets/images/depthany/depthany.gif" alt="depthanything">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/depthanything" class="title-link">
-        <h3>Calibrated Monocular Depth on the WAM-V</h3>
-      </a>
+      <h3>Calibrated Monocular Depth on the WAM-V</h3>
+    </div>
+    <div class="link-row">
+      <a href="/project/depthanything" class="more-link">Project Page</a>
     </div>
     <div class="text-content">
       <p>Depth-Anything V2 scaled to meters via inverse-depth fit; project RGBD to colored point clouds and validate against LiDAR in VRX and field runs.</p>
@@ -89,15 +96,56 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
-    <a href="/project/armlab">
+    <a>
+      <img src="{{site.baseurl}}/assets/images/nightorb/example.gif" alt="nightorbslam">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <h3>Exposure-Robust Masked ORB-SLAM3</h3>
+    </div>
+    <div class="link-row">
+      <a href="https://github.com/minq02/NightMaskedORBSLAM3" class="more-link">Code</a>
+      <a href="https://drive.google.com/file/d/1_gdCck7X44pn3_uRaDPN9sXfSpSAttce/view?usp=sharing" class="more-link">PDF</a>
+    </div>
+    <div class="text-content">
+      <p>Lighting-invariant frontend utilizing adaptive gamma correction and exposure-aware masking. Reduced nighttime trajectory error (RMSE) by 9x with only 30ms latency overhead.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
+    <a>
+      <img src="{{site.baseurl}}/assets/images/tem/example.png" alt="temseg">
+    </a>
+  </div>
+  <div class="text-container">
+    <div class="header-row">
+      <h3>TEM Cell Multi-class Segmentation using Attention U-Net</h3>
+    </div>
+    <div class="link-row">
+      <a href="https://github.com/minq02/TEMCellSegmentation" class="more-link">Code</a>
+      <a href="https://drive.google.com/file/d/1FIUObf7vHrLs1QLaQfTDSbql5cfIX0gQ/view?usp=sharing" class="more-link">PDF</a>
+    </div>
+    <div class="text-content">
+      <p>Multi-class semantic segmentation of high-res scans using sliding-window inference. Optimized hybrid Cross-Entropy + Dice loss to resolve class imbalance (0.79 mDice).</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="image-container">
+    <a>
       <img src="{{site.baseurl}}/assets/images/armlab/armlab.gif" alt="armlab">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/armlab" class="title-link">
-        <h3>Vision-Guided 5-DoF Arm: Pick & Place with RealSense</h3>
-      </a>
+      <h3>Vision-Guided 5-DoF Arm: Pick & Place with RealSense</h3>
+    </div>
+    <div class="link-row">
+      <a href="/project/armlab" class="more-link">Project Page</a>
     </div>
     <div class="text-content">
       <p>ROS 2 pipeline with camera calibration, block/depth detection, and IK. Built teach-and-repeat motions and tuned speeds for reliable autonomous grasping.</p>
@@ -107,15 +155,16 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
-    <a href="/project/botlab">
+    <a>
       <img src="{{site.baseurl}}/assets/images/botlab/botlab.gif" alt="botlab">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/botlab" class="title-link">
-        <h3>Mobile Robot: SLAM + A* Exploration</h3>
-      </a>
+      <h3>Mobile Robot: SLAM + A* Exploration</h3>
+    </div>
+    <div class="link-row">
+      <a href="/project/botlab" class="more-link">Project Page</a>
     </div>
     <div class="text-content">
       <p>Implemented PID velocity control with gyrodometry; built occupancy-grid SLAM with MCL in C++; executed A* planning and frontier-based exploration.</p>
@@ -125,15 +174,16 @@ redirect_from:
 
 <div class="container">
   <div class="image-container">
-    <a href="/project/bigant">
+    <a>
       <img src="{{site.baseurl}}/assets/images/bigant/bigant.png" alt="bigant">
     </a>
   </div>
   <div class="text-container">
     <div class="header-row">
-      <a href="/project/bigant" class="title-link">
-        <h3>Hexapod Staircase Edge Detection</h3>
-      </a>
+      <h3>Hexapod Staircase Edge Detection</h3>
+    </div>
+    <div class="link-row">
+      <a href="/project/bigant" class="more-link">Project Page</a>
     </div>
     <div class="text-content">
       <p>AprilTags + homography with background extraction, Radon-based edge finding, and peak detection to localize stair edges for gait analysis.</p>
@@ -149,8 +199,8 @@ redirect_from:
 }
 
 .image-container {
-  flex: 0 0 200px;
-  height: 100px;
+  flex: 0 0 260px;
+  height: 130px;
   overflow: hidden;
 }
 
@@ -171,7 +221,7 @@ table img {
 }
 
 .image-container img:hover {
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .text-container {
@@ -186,7 +236,8 @@ table img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.25rem;
+  /* margin-bottom: 0.25rem; */
+  margin-bottom: 2px;
 }
 
 .header-row h3 {
@@ -209,9 +260,9 @@ table img {
 
 .text-content p {
   margin: 0;
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   line-height: 1.4;
-  color: #666;
+  color: #474747ff;
 }
 
 .portfolio-section-title {
@@ -223,4 +274,54 @@ table img {
   font-size: 0.85rem;
   line-height: 1.5;
 }
+
+/* --- New "More Info" Link Style --- */
+.link-row {
+  display: flex;
+  gap: 4px;              /* Space between [Project Page] and [Video] */
+  align-self: flex-start; /* Stops the row from stretching full width */
+  margin-bottom: 4px;     /* Space below the links before text starts */
+}
+
+.more-link,
+.more-link:visited {
+  display: inline-block;
+  margin-top: 0;      /* Adjust gap as needed */
+  margin-bottom: 2px;
+  align-self: flex-start;
+  font-size: 0.65rem;    /* The size for the link AND the brackets */
+  font-weight: 600;
+  /* color: #004ea8;*/
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+/* Adds the [ before the link */
+.more-link::before {
+  content: "[";
+  color: #555; /* Brackets are dark grey, not blue */
+  margin-right: 1px;
+  font-weight: 400; /* Optional: Make brackets thinner than the text */
+}
+
+/* Adds the ] after the link */
+.more-link::after {
+  content: "]";
+  color: #555;
+  margin-left: 1px;
+  font-weight: 400;
+}
+
+.more-link:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+/* OPTIONAL: If you want the brackets to stay non-underlined on hover */
+.more-link:hover::before,
+.more-link:hover::after {
+  text-decoration: none; 
+}
+
 </style>
